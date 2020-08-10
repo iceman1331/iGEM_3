@@ -173,23 +173,31 @@ p {
 }
 
 #para-container{
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 8px;
-}
+    }
 
 #para{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
     text-align: justify;
     font-family: 'Helvetica';
     font-size: 1.5rem;
     color: black;
 }
+
+@media only screen and (max-width: 600px) {
+    para {
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+}
+
  
 
 /*Left and right columns*/
