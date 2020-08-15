@@ -179,6 +179,11 @@ p.overview{
     margin-left: auto;
     margin-top: auto;
 }
+@media (max-width:460px){
+    .parallax-inner{
+        left:0%;
+    }
+}
 
 .parallax-inner-img{
     display: block;
@@ -189,9 +194,9 @@ p.overview{
 }
         
  he1{
+     display: block;
      margin: auto;
      text-align: center;
-     margin-left: 45%;
      font-size: 2rem;
      color: #000;
      letter-spacing: 3px;  
