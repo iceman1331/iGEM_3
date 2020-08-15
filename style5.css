@@ -184,11 +184,11 @@
 }
 
 .ch-item:hover .ch-info-front {
-	-webkit-transform:rotate(365deg) scale(0);
-	-moz-transform: rotate(365deg) scale(0);
-	-o-transform: rotate(365deg) scale(0);
-	-ms-transform:rotate(365deg) scale(0);
-	transform: rotate(365deg) scale(0) ;
+	-webkit-transform:rotate(0deg) scale(0);
+	-moz-transform: rotate(0deg) scale(0);
+	-o-transform: rotate(0deg) scale(0);
+	-ms-transform:rotate(0deg) scale(0);
+	transform: rotate(0deg) scale(0) ;
 	opacity: 0;
 } 
 
