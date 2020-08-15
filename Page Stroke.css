@@ -135,39 +135,6 @@ p.overview{
   height: auto;
 }
 
-.text.Para.left{
-    margin: auto;
-    display: block;
-    font-size: 1rem;
-    width: 40%;
-    float: left;
-    margin-left: 10%;
-    text-align: justify;
-    font: 'Helvetica';
-    border-style: solid;
-    border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0) ) 1 100%;
-}
-
-.text.Para.right{
-    margin:auto;
-    width: 40%;
-    float: right;
-    margin-top: 5%;
-    margin-right: 10%;
-    left: 10px;
-    text-align: ;
-    font: 'Helvetica';
-    text-align: justify;
-    border-style: solid;
-    border-image: linear-gradient(to bottom,#ff9234, rgba(0, 0, 0, 0) ) 1 100%;
-}
-
-@media(max-width:700px){
-    .text.Para.right{
-        display: block;
-    }
-}
-
 .image.left{
     padding-bottom: 5%;
     margin: auto;

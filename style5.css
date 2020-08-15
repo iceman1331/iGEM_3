@@ -7,8 +7,7 @@
 }
 
 .ch-grid {
-    border:2px solid red;
-	margin: 20px 0 0 0;
+	margin: 1.5rem 0 0 0;
 	padding: 0;
 	list-style: none;
 	display: block;
@@ -27,10 +26,10 @@
 }
 
 .ch-grid li {
-	width: 220px;
-	height: 220px;
+	width: 13.75rem; /*220px*/
+	height: 13.75rem;
 	display: inline-block;
-	margin: 20px;
+	margin: 1.25rem;
 }
 
 .ch-item {
@@ -45,14 +44,14 @@
 .ch-info-wrap, 
 .ch-info{
 	position: absolute;
-	width: 180px;
-	height: 180px;
+	width: 11.25rem;
+	height: 11.25rem;
 	border-radius: 50%;
 }
 
 .ch-info-wrap {
-	top: 20px;
-	left: 20px;
+	top: 1.25rem;
+	left: 1.25rem;
 	background: #f9f9f9 url("Polygons_4.png");
 	box-shadow: 
 		0 0 0 20px rgba(255,255,255,0.2), 
@@ -129,11 +128,11 @@
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-size: 18px;
+	font-size: 1.3rem;
 	margin: 0 15px;
 	padding: 40px 0 0 0;
-	height: 80px;
-	font-family: 'Open Sans', Arial, sans-serif;
+	height: 5.5rem;
+	font-family: 'IBM Plex Sans', sans-serif;
 	text-shadow: 
 		0 0 1px #fff, 
 		0 1px 2px rgba(0,0,0,0.3);
@@ -142,6 +141,7 @@
 .ch-info p {
 	color: #fff;
 	padding: 10px 5px 0;
+    text-align: center;
 	font-style: italic;
 	margin: 0 30px;
 	font-size: 0.8rem;
@@ -154,7 +154,7 @@
 	font-style: normal;
 	font-weight: 700;
 	text-transform: uppercase;
-	font-size: 9px;
+	font-size: 0.6rem;
 	letter-spacing: 1px;
 	padding-top: 4px;
 	font-family: 'Open Sans', Arial, sans-serif;
@@ -169,7 +169,7 @@
 	-moz-transform: rotate(365deg) scale(0);
 	-o-transform: rotate(365deg) scale(0);
 	-ms-transform:rotate(365deg) scale(0);
-	transform: rotate(365deg) scale(0) ;
+	transform: rotate(180deg) scale(0) ;
 	opacity: 0;
 } 
 
