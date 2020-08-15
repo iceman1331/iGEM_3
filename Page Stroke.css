@@ -179,11 +179,7 @@ p.overview{
     margin-left: auto;
     margin-top: auto;
 }
-@media (max-width:460px){
-    .parallax-inner{
-        left:0%;
-    }
-}
+
 
 .parallax-inner-img{
     display: block;
