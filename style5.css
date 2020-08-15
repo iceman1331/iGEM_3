@@ -107,11 +107,20 @@
 .ch-img-3 { 
 	background-image: url(Images2/humanpractices_icon_cropped.png);
 }
+.ch-img-3-1{
+    background-color: #66aabb;
+}
 .ch-img-4 { 
-	background-image: url(Images2/parts_icon_cropped.png);
+	background-image: url(Images2/design_icon_cropped_2.png);
+}
+.ch-img-4-1{
+    background-color: #a4e8a4;
 }
 .ch-img-5 { 
-	background-image: url(Images2/model_icon_cropped.png);
+	background-image: url(Images2/model_icon_cropped_2.png);
+}
+.ch-img-5-1{
+    background-color: #685779;
 }
 .ch-img-6 { 
 	background-image: url(Images2/entrepreneurship_icon_cropped.png);
@@ -119,9 +128,20 @@
 .ch-img-7 { 
 	background-image: url(Images2/safety_icon_cropped.png);
 }
+.ch-img-7-1{
+    background-color: #ffffcc;
+}
 .ch-img-8 { 
+	background-image: url(Images2/patentlaw_icon_cropped.png);
+}
+.ch-img-9 { 
 	background-image: url(images/15.jpg);
 }
+.ch-img-10{
+    background-color: #ae98aa;
+}
+
+
 
 .ch-info h3 {
 	color: #fff;
