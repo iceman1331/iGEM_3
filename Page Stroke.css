@@ -1,0 +1,248 @@
+h5{
+    text-align: center;
+    font-size: 4rem;
+    margin: auto;
+}
+
+@media (max-width:700px)
+{
+    h5{
+        font-size: 2rem;
+    }
+}
+
+.cta {
+    background-color: white;
+    color: rgba(255, 255, 255, 0.75);
+    width:100%;
+    height:500px;
+    background-attachment: fixed;
+    background-color:#141414;
+    background-position:bottom;
+    opacity: 0.95;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1; 
+}
+
+@media(max-width:400px){
+    .cta { height:200px;
+        
+    }
+}
+
+
+
+                                            /*Heading Stroke animation*/
+svg {
+    display: block;
+    font-size: 10.5rem;
+    font-family: 'Lato', sans-serif;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+@media(max-width:300px){
+    svg{
+        font-size:12rem;
+    }
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: aqua;
+	animation-delay: -1s;
+}
+
+.text-copy:nth-child(2){
+	stroke: #0CCE6B;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #DCED31;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #EF2D56;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #ED7D3A;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+
+
+
+.cta.text.centered {
+    height: 1000px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+p{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+    text-align: justify;
+}
+p.overview{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    margin-top: 0;
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
+
+@media(max-width:200px){
+    p {font-size:10rem;}
+}
+
+.row img {
+  width: auto;
+  max-width:100%;
+  height: auto;
+}
+
+.text.Para.left{
+    margin: auto;
+    display: block;
+    font-size: 1rem;
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    text-align: justify;
+    font: 'Helvetica';
+    border-style: solid;
+    border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0) ) 1 100%;
+}
+
+.text.Para.right{
+    margin:auto;
+    width: 40%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 10%;
+    left: 10px;
+    text-align: ;
+    font: 'Helvetica';
+    text-align: justify;
+    border-style: solid;
+    border-image: linear-gradient(to bottom,#ff9234, rgba(0, 0, 0, 0) ) 1 100%;
+}
+
+@media(max-width:700px){
+    .text.Para.right{
+        display: block;
+    }
+}
+
+.image.left{
+    padding-bottom: 5%;
+    margin: auto;
+    margin-top: 0.3%;
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.image.right{
+    padding-bottom: 5%;
+    margin-top: 2%;
+    width: 40%;
+    float: right;
+    margin: auto;
+    margin-right: 10%;
+    text-align: center;
+}
+
+
+
+.margin{ 
+    margin-top: 2%;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+            
+        }
+.parallax{
+    height: auto;
+    background: url("Solid.jpg")  fixed 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 9;
+            
+}
+.parallax-inner{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+        
+ he1{
+     text-align: center;
+     margin-left: 45%;
+     font-size:2rem;
+     color: antiquewhite;
+     letter-spacing: 3px;  
+}
+
+/* Pen-specific styles */
+article {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  transform: translate(0, -50%);
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+}
+
+/* Pattern styles */
+.container {
+  display: grid;
+}
+
+.left-half {
+  background: #ff9e2c;
+  grid-column: 1;
+}
+
+.right-half {
+  background: #b6701e;
+  grid-column: 2;
+}
