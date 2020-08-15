@@ -42,29 +42,25 @@
 
 .ch-info-wrap{
 	position: absolute;
-	width: 11.25rem;
-	height: 11.25rem;
-	border-radius: 50%;
+	width: 0;
+	height: 0;
+	
 
 	-webkit-perspective: 800px;
 	-moz-perspective: 800px;
 	-o-perspective: 800px;
 	-ms-perspective: 800px;
-	perspective: 800px;
+	
 
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	transition: all 0.6s ease-in-out;
+	-webkit-transition: all 0.6s ease-in-out;
+	-moz-transition: all 0.6s ease-in-out;
+	-o-transition: all 0.6s ease-in-out;
+	-ms-transition: all 0.6s ease-in-out;
+	transition: all 0.1s ease-in-out;
 
 	top: 20px;
 	left: 20px;
-	background: #f9f9f9;
-	box-shadow: 
-		0 0 0 20px rgba(255,255,255,0.2), 
-		inset 0 0 3px rgba(115,114, 23, 0.8);
-
+	
 }
 
 .ch-info{
