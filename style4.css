@@ -2,7 +2,7 @@
 	width: 90%;
 	margin: 0 auto;
 	position: relative;
-    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    background-image:white;/* linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%)*/;
 }
 
 .ch-grid {
@@ -31,6 +31,8 @@
 	margin: 20px;
 }
 
+
+
 .ch-item {
 	width: 100%;
 	height: 100%;
@@ -39,6 +41,8 @@
 	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
 	cursor: default;
 }
+
+
 
 .ch-info-wrap{
 	position: absolute;
@@ -80,8 +84,9 @@
 	-o-transform-style: preserve-3d;
 	-ms-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-
 }
+
+
 
 .ch-info > div {
 	display: block;
@@ -111,6 +116,7 @@
 .ch-img-1 { 
 	background-image: url(Images2/description_logo_cropped.png);
 }
+
 
 .ch-img-2 { 
 	background-image: url(Images2/design_icon_cropped.png);
