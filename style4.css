@@ -93,7 +93,7 @@
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	border-radius: 0%;
+	border-radius: 1%;
 	background-position: center center;
 
 	-webkit-backface-visibility: hidden;
@@ -101,6 +101,9 @@
 	-o-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
 	backface-visibility: hidden;
+    
+    box-shadow: 3px 3px 3px 1px grey;
+    
 }
 
 .ch-info .ch-info-back {
